@@ -58,22 +58,6 @@ public class Make_Wall : MonoBehaviour
         }
 
         //ROOF
-        //for (int r = -3; r < 21; r++)
-        //{
-        //    for (int q = 0; q < 20; q++)
-        //    {
-        //        Instantiate(wall, new Vector3(q, 20, r), Quaternion.identity);
-        //    }
-        //}
-
-        //for (int r = -3; r < 21; r++)
-        //{
-        //    for (int q = 10; q > 0; q--)
-        //    {
-        //        Instantiate(wall, new Vector3(q, 20, r), Quaternion.identity);
-        //    }
-        //}
-
         for (int r = 25; r > -6; r--)
         {
             for (int q = 0; q < 20; q++)
